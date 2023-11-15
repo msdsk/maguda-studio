@@ -3,7 +3,6 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [
     '@nuxt/content',
-    '@nuxtjs/eslint-module',
     '@nuxt/image'
   ],
   css: ['@thisisdeploy/scaffold-css', '~/assets/scss/main.scss'],
@@ -14,6 +13,12 @@ export default defineNuxtConfig({
           additionalData: '@import "@/assets/scss/variables.scss";'
         }
       }
+    }
+  },
+  image: {
+    screens: {
+      sm: 720,
+      lg: 1920
     }
   }
 })

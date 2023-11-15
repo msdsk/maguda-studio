@@ -1,6 +1,6 @@
 <template>
   <div class="tile">
-    <nuxt-img class="tile__image" :src="project.image" :alt="project.title" />
+    <nuxt-img class="tile__image" :src="project.image" :alt="project.title" :sizes="`lg:${small ? 34 : 67}vw sm:100vw`" />
     <div class="tile__text">
       <h3>{{ project.title }}</h3>
       <p>{{ project.client }}</p>
@@ -16,6 +16,7 @@ import type { ProjectContent } from '@/types/content'
 
 interface ProjectTileProps {
   project: ProjectContent;
+  small: boolean;
 }
 
 defineProps<ProjectTileProps>()
