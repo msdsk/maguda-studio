@@ -1,8 +1,11 @@
 <template>
-  <main class="main">
-    Some text
-  </main>
+  <div>
+    <ProjectsContainer />
+  </div>
 </template>
+
+<script setup lang="ts">
+</script>
 
 <style lang="scss">
 .main {

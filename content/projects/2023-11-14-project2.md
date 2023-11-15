@@ -1,8 +1,8 @@
 ---
-title: Test Project 1
+title: Test Project 2
 client: Client
 location: Location
-image: /img/cms/map.jpg
+image: /img/cms/what.we.do.in.the.shadows.s04e02.the.lamp.1080p.hulu.web-dl.ddp5.1.h.264-ntb.mkv_snapshot_08.30.244.jpg
 images:
   - image: /img/cms/map.jpg
   - image: /img/cms/what.we.do.in.the.shadows.s04e02.the.lamp.1080p.hulu.web-dl.ddp5.1.h.264-ntb.mkv_snapshot_08.30.244.jpg

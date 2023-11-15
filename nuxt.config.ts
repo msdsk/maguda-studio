@@ -2,16 +2,18 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [
-    '@nuxt/content'
+    '@nuxt/content',
+    '@nuxtjs/eslint-module',
+    '@nuxt/image'
   ],
-  css: ['~/assets/scss/main.scss', '@thisisdeploy/scaffold-css'],
+  css: ['@thisisdeploy/scaffold-css', '~/assets/scss/main.scss'],
   vite: {
     css: {
       preprocessorOptions: {
         scss: {
-          additionalData: '@import "@/assets/scss/variables.scss";',
-        },
-      },
-    },
+          additionalData: '@import "@/assets/scss/variables.scss";'
+        }
+      }
+    }
   }
 })
