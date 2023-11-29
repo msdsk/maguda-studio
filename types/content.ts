@@ -9,3 +9,8 @@ export interface ProjectContent extends ParsedContent {
   date: Date
   description: string
 }
+
+export interface MainContent extends ParsedContent {
+  name: string
+  description: string
+}

@@ -13,7 +13,7 @@ collections:
         format: "frontmatter"
         file: "main.md"
         fields:
-          - { label: "Name", name: "name", widget: "string" }
+          - { label: "Title", name: "title", widget: "string" }
           - { label: "Description", name: "description", widget: "markdown" }
   - name: "projects"
     label: "Projects"
