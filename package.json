@@ -12,7 +12,6 @@
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
-    "eslint": "^8.53.0",
     "nuxt": "^3.8.1",
     "sass": "^1.69.5",
     "vue": "^3.3.8",
