@@ -20,6 +20,7 @@
   "dependencies": {
     "@nuxt/content": "^2.9.0",
     "@nuxt/image": "^1.0.0",
+    "@nuxtjs/mdc": "^0.2.8",
     "@thisisdeploy/scaffold-css": "^1.7.1"
   }
 }

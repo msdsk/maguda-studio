@@ -1,7 +1,10 @@
 <template>
-  <main class="main">
-    <NuxtPage />
-  </main>
+  <div class="main-wrapper">
+    <main>
+      <NuxtPage />
+    </main>
+    <MainFooter />
+  </div>
 </template>
 
 <script setup>
@@ -15,8 +18,8 @@ useHead({
 </script>
 
 <style lang="scss">
-.main {
-  max-width: 84rem;
+.main-wrapper {
+  max-width: $lg;
   margin: 5rem auto;
   padding: 0 2rem;
 }

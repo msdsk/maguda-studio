@@ -15,5 +15,5 @@ outro: >-
   ### Brand Strategy and Web Design
 
 
-  We believe that every brand has a unique story waiting to be told, and we specialize  in bringing those stories to life. Our team of seasoned strategists collaborates closely  with clients to understand their core values, target audience, and long-term goals.
+  We believe that every brand has a unique story waiting to be told, and we specialize in bringing those stories to life. Our team of seasoned strategists collaborates closely with clients to understand their core values, target audience, and long-term goals.
 ---

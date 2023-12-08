@@ -11,6 +11,8 @@ export interface ProjectContent extends ParsedContent {
 }
 
 export interface MainContent extends ParsedContent {
-  name: string
+  mainTitle: string
   description: string
+  more: string
+  outro: string
 }

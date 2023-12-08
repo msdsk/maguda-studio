@@ -2,8 +2,9 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [
+    '@nuxtjs/mdc',
     '@nuxt/content',
-    '@nuxt/image'
+    '@nuxt/image',
   ],
   css: ['@thisisdeploy/scaffold-css', '~/assets/scss/main.scss'],
   vite: {
@@ -19,6 +20,15 @@ export default defineNuxtConfig({
     screens: {
       sm: 720,
       lg: 1920
+    }
+  },
+  mdc: {
+    headings: {
+      anchorLinks: {
+        h1: false,
+        h2: false,
+        h3: false
+      }
     }
   }
 })
