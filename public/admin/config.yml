@@ -11,10 +11,12 @@ collections:
       - label: "Main Page"
         name: "main"
         format: "frontmatter"
-        file: "main.md"
+        file: "content/main.md"
         fields:
-          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Title", name: "mainTitle", widget: "string" }
           - { label: "Description", name: "description", widget: "markdown" }
+          - { label: "More description", name: "more", widget: "markdown" }
+          - { label: "Outro", name: "outro", widget: "markdown" }
   - name: "projects"
     label: "Projects"
     folder: "content/projects"

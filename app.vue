@@ -1,6 +1,5 @@
 <template>
   <main class="main">
-    <MainHero />
     <NuxtPage />
   </main>
 </template>

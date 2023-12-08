@@ -1,5 +1,6 @@
 <template>
   <div>
+    <MainHero />
     <ProjectsContainer />
   </div>
 </template>
